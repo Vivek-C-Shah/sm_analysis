@@ -1,0 +1,11 @@
+.env
+*.env
+.local
+*.local
+__pycache__
+current_env
+ramenv
+myenv
+custom_files
+custom_files/*
+custom_files/**/*
