@@ -9,3 +9,4 @@ myenv
 custom_files
 custom_files/*
 custom_files/**/*
+venv

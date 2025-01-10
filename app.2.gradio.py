@@ -158,7 +158,7 @@ def update_analysis(df: pd.DataFrame, selected_post_type, metric_types, prompt_l
 
 # -------------- BUILD THE GRADIO INTERFACE -------------- #
 with gr.Blocks() as demo:
-    gr.Markdown("# Social Media Engagement Analysis Tool")
+    gr.Markdown("# Social Media Engagement Analysis Tool - By Edgy Coders")
 
     # A State object to hold the DataFrame after loading
     df_state = gr.State()
