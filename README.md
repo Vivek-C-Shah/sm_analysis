@@ -8,7 +8,7 @@
 
 ![social_media_flow](image.png)
 
-## Introduction
+## Introduction   
 
 This project involves analyzing social media performance data using advanced tools and technologies, including Astra DB, Langflow, Python, and Gradio. The primary objective is to preprocess and store engagement data, query and analyze post performance metrics, and provide actionable insights via an interactive interface.
 

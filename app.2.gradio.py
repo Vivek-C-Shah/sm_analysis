@@ -300,4 +300,9 @@ with gr.Blocks() as demo:
     with gr.Tab("Settings"):
         gr.Markdown("### Customize Application Settings")
 
-demo.launch()
+import os
+
+# Ensure the PORT environment variable is used
+port = int(os.getenv("PORT", 7860))
+
+demo.launch(server_name="0.0.0.0", server_port=port)
